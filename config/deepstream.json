@@ -1,0 +1,32 @@
+{
+    "kernel":
+    { 
+        "wait_buffer": 0,
+        "image_data":
+        {
+            "width": 3840,
+            "height": 1920,
+            "batched_push_timeout": 33333,
+            "decoded_input_frames": 30,
+            "drop_decoded_frames": 20
+        },
+
+        "rtsp_output":
+        {
+            "open": true,
+            "encoder": "H265",
+            "name": "detection",
+            "ip": "127.0.0.1",
+            "rtsp_port_num": 8881,
+            "updsink_port_num": 5551,
+            "bitrate": 6000000
+        },
+
+        "debug_mode": false
+    },
+    
+    "your_customized_paramters":
+    {
+        
+    }
+}
